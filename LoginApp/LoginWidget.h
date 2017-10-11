@@ -4,19 +4,19 @@
 #include <QWidget>
 
 namespace Ui {
-class Widget;
+class LoginWidget;
 }
 
-class Widget : public QWidget
+class LoginWidget : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit Widget(QWidget *parent = 0);
-    ~Widget();
+    explicit LoginWidget(QWidget *parent = 0);
+    ~LoginWidget();
 
 private:
-    Ui::Widget *ui;
+    Ui::LoginWidget *ui;
 };
 
 #endif // LOGINWIDGET_H
